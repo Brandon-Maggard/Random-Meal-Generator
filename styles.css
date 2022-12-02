@@ -1,0 +1,166 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* ------------------------------------------------------------------------------------ */
+#wrapper {
+    width: 1280px;
+    margin: 0 auto;
+    font-family: Trebuchet MS,Tahoma,Verdana,Arial,sans-serif;
+    color: black;
+    font-size: 16px;
+    }
+
+body {
+    background-image: linear-gradient(#d7dde8, #757f9a);
+    }
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    }
+
+h1 a {
+    text-decoration: none;
+    color: black;
+    }
+
+#toggleButton {
+    padding: .5em;
+    border-radius: 5px;
+}
+
+.darkToggle {
+    background: #000;
+    color: #fff;
+  }
+
+.darkModeTheme {
+background: #000;
+color: #fff;
+}
+
+#slideshow {
+    text-align: center;
+}
+
+#slideshow img {
+    width: 1280px;
+}
+
+h2 {
+    font-size: 2em;
+    padding: .5em;
+    text-align: center;
+    }
+
+.main p {
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+    padding: .5em;
+}
+
+#mbutton {
+    text-decoration: none;
+    font-size: 1em;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    }
+
+#mbutton:hover {
+    color: black;
+    }
+
+#accordion {
+    text-align: center;
+    padding-left: 6em;
+    padding-right: 6em;
+    border: 1em solid #e78f08;
+    border-radius: 5px;
+    margin-left: 8em;
+    margin-right: 8em;
+    background-color: #1c94c4;
+    height: auto;
+}
+
+h3 {
+    font-size: 1.8em;
+}
+
+h4 {
+    font-size: 1.6em;
+}
+
+h3, h4 {
+    background-color: rgba(255, 255, 255, 0.639);
+    padding: .5em;
+    cursor: pointer;
+}
+
+#accordion p, ul {
+    font-size: 1.3em;
+}
+
+#general, #ingred, #direct {
+    padding: .5em;
+    height: auto;
+}
+
+#general img {
+    max-height: 70%;
+}
+
+footer {
+    text-align: center;
+    font-size: .8em;
+    }

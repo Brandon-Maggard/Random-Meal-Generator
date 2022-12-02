@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Random Meal Generator</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="styles.css">
+        <script src="jquery-3.6.1.min.js"></script>
+        <script src="jquery-ui.min.js"></script>
+        <script src="meals.js"></script>
+        <script src="jquery.tcycle.js"></script>
+        <link rel="stylesheet" href="jquery-ui.theme.css">
+		<meta name="author" content="Brandon Maggard">
+        <meta name="description" content="A website based random meal generator built by using JavaScript">
+        <link rel="shortcut icon" href="faviconmeal.ico" type="image/x-icon">
+        <link rel="icon" href="faviconmeal.ico" type="image/x-icon">
+	</head>
+
+    <body>
+        <div id="wrapper">
+            <h1><a href="index.html">Random Meals</a></h1>
+            <div class="center">
+                <button id="toggleButton" class="darkToggle">Toggle Dark Mode</button>
+            </div>
+
+            <div id="slideshow" class="tcycle">
+                <img class="slides" src="pancakes.jpg" alt="Fluffy pancakes"/>
+                <img class="slides" src="pasta.jpg" alt="Zesty pasta"/>
+                <img class="slides" src="noodles.jpg" alt="Asian noodles"/>
+            </div>
+
+
+            <main>
+                <section class="main">
+                    
+                    <h2>Need Help With Dinner</h2>
+                    <p>Press the button below to get a random meal that you can make at home.</p>
+                    <div class="center">
+                        <button id="mButton">Find A Meal</button>
+                    </div>
+                    
+                </section>
+
+                <section id="accordion">
+                    <h3>Meal</h3>
+                    <section id="general">
+                        
+                    </section>
+                    <h4>Ingredients</h4>
+                    <section id="ingred">
+                        
+                    </section>
+                    <h4>How to Cook</h4>
+                    <section id="direct">
+                        
+                    </section>
+
+                </section>
+            </main>
+        </div>
+        <footer>
+            <p>Random Meal Generator</p>
+            <p>Copyright &copy; 2022 - All Rights Reserved.</p>
+            <p>This site is for educational purposes only.</p>
+        </footer>
+    </body>
+</html>
