@@ -1,0 +1,191 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* ------------------------------------------------------------------------------------ */
+/* Fixed screen and setting main golobal styles */
+#wrapper {
+    width: 1280px;
+    margin: 0 auto;
+    font-family: Trebuchet MS,Tahoma,Verdana,Arial,sans-serif;
+    color: black;
+    font-size: 16px;
+}
+
+/* Background color  */
+body {
+    background-image: linear-gradient(#d7dde8, #757f9a);
+}
+
+/* Centering, font sizing, and padding for the first header  */
+h1 {
+    text-align: center;
+    font-size: 3em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    color: #1c94c4;
+}
+
+/* Taking away link decorations  */
+h1 a {
+    text-decoration: none;
+    color: #1c94c4;
+}
+
+/* Dark mode and Light mode toggle button styles  */
+#toggleButton {
+    padding: .5em;
+    border-radius: 5px;
+}
+
+/* Dark mode styles  */
+.darkToggle {
+    background: #000;
+    color: #fff;
+}
+
+/* Dark mode styles  */
+.darkModeTheme {
+background: #000;
+color: #fff;
+}
+
+/* Centering the slideshow  */
+#slideshow {
+    text-align: center;
+}
+
+/* Making the images the same size as the webpage  */
+#slideshow img {
+    width: 1280px;
+}
+
+/* Header 2 size spacing and centering  */
+h2 {
+    font-size: 2em;
+    padding: .5em;
+    text-align: center;
+    color: white;
+}
+
+/* Centering the paragraph text in the static information  */
+.main p {
+    text-align: center;
+    color: white;
+}
+
+/* Centering all content with the class center  */
+.center {
+    text-align: center;
+    padding: .5em;
+}
+
+/* Meal geration button styles  */
+#mbutton {
+    text-decoration: none;
+    font-size: 1em;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* Hover style for the meal generation button  */
+#mbutton:hover {
+    color: black;
+}
+
+/* Accordion styles  */
+#accordion {
+    text-align: center;
+    padding-left: 6em;
+    padding-right: 6em;
+    border: 1em solid #e78f08;
+    border-radius: 5px;
+    margin-left: 8em;
+    margin-right: 8em;
+    background-color: #1c94c4;
+    height: auto;
+}
+
+/* Header 3 font size  */
+h3 {
+    font-size: 1.8em;
+}
+
+/* Header 4 font size  */
+h4 {
+    font-size: 1.6em;
+}
+
+/* Header 3 and 4 background color spacing and changing the mouse hover to pointer  */
+h3, h4 {
+    background-color: rgba(255, 255, 255, 0.639);
+    padding: .5em;
+    cursor: pointer;
+}
+
+/* Font size for items in the accordion  */
+#accordion p, ul {
+    font-size: 1.3em;
+}
+
+/* Spacing for the different sections of the accordion  */
+#general, #ingred, #direct {
+    padding: .5em;
+    height: auto;
+}
+
+/* Setting max width for the image in the accordion  */
+#general img {
+    max-height: 70%;
+}
+
+/* Footer centered and font size  */
+footer {
+    text-align: center;
+    font-size: .8em;
+}
